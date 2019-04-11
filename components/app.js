@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import Header from './Header.jsx'
+import Word from './Word.jsx'
+import Buttons from './Buttons.jsx'
 
 class App extends Component {
 
@@ -7,7 +10,18 @@ class App extends Component {
   }
 
   render () {
-    return <h1>Welcome to {this.props.name}</h1>
+    return (
+      <div>
+      
+        {/* <h1>Welcome to {this.props.name}</h1> */}
+        <Header />
+        <Word />
+        <Buttons />
+        
+      </div>
+      
+      
+      )
   }
 
 }

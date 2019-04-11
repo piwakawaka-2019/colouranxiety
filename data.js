@@ -23,7 +23,7 @@ const colour = [{
   colour: 'red'
 },
 {
-  word:"yellow",
+  word:"YELLOW",
   colour: 'blue'
 },
 {
@@ -37,5 +37,7 @@ const colour = [{
 {
   word:"RED",
   colour: 'blue'
-},
+}
 ]
+
+export default colour
