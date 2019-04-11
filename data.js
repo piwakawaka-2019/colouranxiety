@@ -1,42 +1,42 @@
 const colour = [{
   word:"RED",
-  colour: 'blue'
+  color: 'blue'
 },
 {
   word:"YELLOW",
-  colour: 'green'
+  color: 'green'
 },
 {
   word:"GREEN",
-  colour: 'red'
+  color: 'red'
 },
 {
   word:"BLUE",
-  colour: 'yellow'
+  color: 'yellow'
 },
 {
   word:"RED",
-  colour: 'green'
+  color: 'green'
 },
 {
   word:"BLUE",
-  colour: 'red'
+  color: 'red'
 },
 {
   word:"YELLOW",
-  colour: 'blue'
+  color: 'blue'
 },
 {
   word:"GREEN",
-  colour: 'red'
+  color: 'red'
 },
 {
   word:"BLUE",
-  colour: 'yellow'
+  color: 'yellow'
 },
 {
   word:"RED",
-  colour: 'blue'
+  color: 'blue'
 }
 ]
 

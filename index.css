@@ -7,6 +7,7 @@ main {
 .word {
   font-family: 'Paytone One', sans-serif;
   font-size: 11em;
+  padding: 30px;
 }
 
 .crazy {
