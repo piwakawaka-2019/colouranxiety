@@ -4,6 +4,10 @@ main {
   letter-spacing: .5em;
 }
 
+.h1{
+ font-size :40px;
+}
+
 .word {
   font-family: 'Paytone One', sans-serif;
   font-size: 11em;
