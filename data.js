@@ -37,5 +37,7 @@ const colour = [{
 {
   word:"RED",
   colour: 'blue'
-},
+}
 ]
+
+export default colour

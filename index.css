@@ -1,3 +1,14 @@
 main {
   text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  letter-spacing: .5em;
+}
+
+.word {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 11em;
+}
+
+.crazy {
+  background-color: blanchedalmond;
 }
