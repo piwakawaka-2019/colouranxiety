@@ -9,8 +9,10 @@ class Buttons extends Component {
         return ( 
             <div>
                 <button>RED</button>
-
-
+                <button>BLUE</button>
+                <button>YELLOW</button>
+                <button>GREEN</button>
+               
 
 
 
