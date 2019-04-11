@@ -17,9 +17,11 @@ class Word extends Component {
     
     render() { 
 
-        console.log(randomId)
+        console.log(data[randomId].color)
+        let {color} = data[randomId]
+        
         return ( 
-            <div className='crazy word' style= >
+            <div className='crazy word' style={{color}} >
              {data[randomId].word}
 
             </div>
