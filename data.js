@@ -23,7 +23,7 @@ const colour = [{
   colour: 'red'
 },
 {
-  word:"yellow",
+  word:"YELLOW",
   colour: 'blue'
 },
 {
