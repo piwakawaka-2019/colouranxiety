@@ -3,8 +3,7 @@ import data from '../data.js'
 
 var min=0; 
 var max=10;  
- 
-  
+
 let randomId = Math.floor(Math.random() * (+max - +min)) + +min;
 
 class Word extends Component {
@@ -17,11 +16,11 @@ class Word extends Component {
     
     render() { 
 
-        console.log(data[randomId].color)
+        console.log(randomId, data[randomId])
         let {color} = data[randomId]
-        
+
         return ( 
-            <div className='crazy word' style={{color}} >
+            <div className='word' style={{color}} >
              {data[randomId].word}
 
             </div>

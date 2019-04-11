@@ -1,6 +1,6 @@
 const colour = [{
   word:"RED",
-  color: 'blue'
+  color: 'royalblue'
 },
 {
   word:"YELLOW",
@@ -12,7 +12,7 @@ const colour = [{
 },
 {
   word:"BLUE",
-  color: 'yellow'
+  color: 'gold'
 },
 {
   word:"RED",
@@ -24,7 +24,7 @@ const colour = [{
 },
 {
   word:"YELLOW",
-  color: 'blue'
+  color: 'royalblue'
 },
 {
   word:"GREEN",
@@ -32,11 +32,11 @@ const colour = [{
 },
 {
   word:"BLUE",
-  color: 'yellow'
+  color: 'gold'
 },
 {
   word:"RED",
-  color: 'blue'
+  color: 'royalblue'
 }
 ]
 
