@@ -8,11 +8,12 @@ class Buttons extends Component {
     render() { 
         return ( 
             <div>
+                <button>RED</button>
 
 
 
 
-                
+
             </div>
 
 
