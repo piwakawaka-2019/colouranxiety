@@ -1,41 +1,53 @@
 const colour = [{
+  id:1,
   word:"RED",
-  colour: 'blue'
+  color: 'royalblue'
 },
 {
+  id:2,
   word:"YELLOW",
-  colour: 'green'
+  color: 'green'
 },
 {
+  id:3,
   word:"GREEN",
-  colour: 'red'
+  color: 'red'
 },
 {
+  id:4,
   word:"BLUE",
-  colour: 'yellow'
+  color: 'gold'
 },
 {
+  id:5,
   word:"RED",
-  colour: 'green'
+  color: 'green'
 },
 {
+  id:6,
   word:"BLUE",
-  colour: 'red'
+  color: 'red'
 },
 {
-  word:"yellow",
-  colour: 'blue'
+  id:7,
+  word:"YELLOW",
+  color: 'royalblue'
 },
 {
+  id:8,
   word:"GREEN",
-  colour: 'red'
+  color: 'red'
 },
 {
+  id:9,
   word:"BLUE",
-  colour: 'yellow'
+  color: 'gold'
 },
 {
+  id:10,
   word:"RED",
-  colour: 'blue'
-},
+  color: 'royalblue'
+}
 ]
+
+export default colour
