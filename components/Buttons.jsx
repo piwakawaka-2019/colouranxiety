@@ -7,23 +7,32 @@ class Buttons extends Component {
         super(props);
         this.state = {  }
     }
+
     render() { 
         let theObjId = this.props.match.params.id
-        console.log('The object id =', theObjId)
-
-        console.log('The params =', this.props)
-     
         
-        let theObj =  data.find( x => x.id === theObjId)
+        let theObj =  data.find( x => x.id == theObjId)
 
-           console.log('The obj =', theObj)
+        let winColor = theObj.color
+
+        console.log(this.props)
+
+       const handleClick = (e) => {
+           if (theObj.word == e.target.innerHTML) {
+               this.props.history.push('/Win.jsx')
+           } else {
+               this.props.history.push('/Lose.jsx')
+           }
+
+            
+        }
 
         return ( 
             <div>
-                <button>RED</button>
-                <button>BLUE</button>
-                <button>YELLOW</button>
-                <button>GREEN</button>
+                <button onClick={handleClick}>RED</button>
+                <button onClick={handleClick}>BLUE</button>
+                <button onClick={handleClick}>YELLOW</button>
+                <button onClick={handleClick}>GREEN</button>
                
 
 
