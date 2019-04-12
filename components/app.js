@@ -16,8 +16,8 @@ class App extends Component {
         <Router>
         <div>
           <Route path='/' component={Header} />
-          <Route path='/:word' component={Word} />
-          <Route path='/:word' component={Buttons} />
+          <Route path='/:id' component={Word} />
+          <Route path='/:id' component={Buttons} />
         </div>
         </Router>  
       </div>

@@ -19,13 +19,14 @@ class Word extends Component {
 
         let {color} = data[randomId]
         let {word} = data[randomId]
+        let {id} = data[randomId]
 
 
 
         return ( 
             <div className='word' style={{color}} >
              {word}
-             <Redirect to={`/${word}`} />
+             <Redirect to={`/${id}`} />
             
             </div>
 
