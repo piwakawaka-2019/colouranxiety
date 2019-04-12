@@ -4,6 +4,8 @@ import Header from './Header.jsx'
 import Word from './Word.jsx'
 import Buttons from './Buttons.jsx'
 import Countdown from './Timer.jsx'
+import Lose from './Lose.jsx'
+import Win from './Win.jsx'
 
 class App extends Component {
 
@@ -20,6 +22,12 @@ class App extends Component {
         <Buttons />
         <Countdown />
         
+        <Lose />
+        <Win />
+      {/* <div>
+      <button><Audio Win/>Winner</button>
+      <button><Audio Lose/>Loser</button>
+      </div> */}
       </div>
 
     ) 
