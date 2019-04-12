@@ -1,32 +1,23 @@
-import React from 'react'
-import CountdownTimer from "react-component-countdown-timer"
+import React from "react";
+import CountdownTimer from "react-component-countdown-timer";
 
 class Countdown extends React.Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-
-    }
-  }
   render() {
     var settings = {
-    count: 5,
-    border: true,
-    hideDay: true,
-    hideHours: true,
-    noPoints: true,
-    onEnd: ( ) => {
-      this.props.history.push('/result/lose')
-    },     
+      count: 3,
+      border: true,
+      hideDay: true,
+      hideHours: true,
+      noPoints: true,
+      onEnd: () => {
+        if (this.props.history.location.pathname != "/result/lose") {
+          this.props.history.push("/result/lose");
+        }
+      }
+    };
 
-  };
-
-  
-
-return (
- <CountdownTimer {...settings} />
-    );
+    return <CountdownTimer {...settings} />;
   }
 }
 
-export default Countdown
+export default Countdown;

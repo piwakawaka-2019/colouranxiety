@@ -1,7 +1,7 @@
 const colour = [{
   id:1,
   word:"RED",
-  color: 'royalblue'
+  color: 'blue'
 },
 {
   id:2,
@@ -16,7 +16,7 @@ const colour = [{
 {
   id:4,
   word:"BLUE",
-  color: 'gold'
+  color: 'yellow'
 },
 {
   id:5,
@@ -31,7 +31,7 @@ const colour = [{
 {
   id:7,
   word:"YELLOW",
-  color: 'royalblue'
+  color: 'blue'
 },
 {
   id:8,
@@ -41,12 +41,12 @@ const colour = [{
 {
   id:9,
   word:"BLUE",
-  color: 'gold'
+  color: 'yellow'
 },
 {
   id:10,
   word:"RED",
-  color: 'royalblue'
+  color: 'blue'
 }
 ]
 

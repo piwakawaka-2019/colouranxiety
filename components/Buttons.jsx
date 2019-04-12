@@ -16,7 +16,7 @@ class Buttons extends Component {
 
         let winColor = theObj.color
 
-        console.log(winColor)
+        console.log('winColor',  theObj)
 
        const handleClick = (e) => {
            if (winColor == e.target.innerHTML.toLowerCase()) {
