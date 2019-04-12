@@ -9,7 +9,7 @@ class Lose extends Component {
 
   render() {
     const handleClick = e => {
-      window.location = "colouranxiety/";
+      window.location = "/";
     };
 
     return (
