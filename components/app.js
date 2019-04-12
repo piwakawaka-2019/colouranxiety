@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
@@ -27,7 +28,9 @@ class App extends Component {
   render() {
     return (
       <div>
+
         <Router>
+
           <div>
             <Route
               exact="true"
@@ -44,6 +47,7 @@ class App extends Component {
             <Route path="/result/lose" component={Lose} />
           </div>
         </Router>
+
       </div>
     );
   }

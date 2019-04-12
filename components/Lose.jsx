@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 
 class Lose extends Component {
@@ -27,3 +28,4 @@ class Lose extends Component {
 }
 
 export default Lose;
+

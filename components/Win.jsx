@@ -7,6 +7,7 @@ class Win extends Component {
         this.state = {  }
     }
 
+
     render() {
       const handleClick = (e) => {
         window.location = "/";     
@@ -19,16 +20,12 @@ class Win extends Component {
             <br>
             </br>
           <button onClick={handleClick}> Try Again! </button>
+
           </div>
           );
     }
   }
   
 
-
-
-
-
-
-
 export default Win
+

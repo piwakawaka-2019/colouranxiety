@@ -30,15 +30,14 @@ class Buttons extends Component {
 
         return ( 
             <div>
+
                 <button onClick={handleClick}>RED</button>
                 <button onClick={handleClick}>BLUE</button>
                 <button onClick={handleClick}>YELLOW</button>
                 <button onClick={handleClick}>GREEN</button>
                
+             </div>
 
-
-
-            </div>
 
 
 
