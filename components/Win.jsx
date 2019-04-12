@@ -6,21 +6,26 @@ class Win extends Component {
         super(props);
         this.state = {  }
     }
-    render() { 
+
+
+    render() {
+      const handleClick = (e) => {
+        window.location = "/";     
+     }
+
         return (
           <div>
-            <h1 class='heading'>That's Awesome</h1>
+            <h1 className='heading'>That's Awesome</h1>
             <img src={'https://images-na.ssl-images-amazon.com/images/I/51-G3tQVdfL._SX425_.jpg'}/>
+            <br>
+            </br>
+          <button onClick={handleClick}> Try Again! </button>
+
           </div>
           );
     }
   }
   
 
+export default Win
 
-
-
-
-
-
-export default win
