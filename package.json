@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/author/colouranxiety",
   "dependencies": {
-    
+
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

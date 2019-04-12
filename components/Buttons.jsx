@@ -14,11 +14,7 @@ class Buttons extends Component {
                 <button>BLUE</button>
                 <button>YELLOW</button>
                 <button>GREEN</button>
-               
-
-
-
-            </div>
+             </div>
 
 
 
