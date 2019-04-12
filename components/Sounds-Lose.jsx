@@ -23,9 +23,7 @@ class Loser extends React.Component {
 
 render(){
   return(
-    <div>
-  <button onClick={this.play.bind(this)} type="button"></button>
-</div>
+  <audio src={'/public/lose.mp3'} autoPlay />
   )
   }
 }

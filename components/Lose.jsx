@@ -20,7 +20,8 @@ class Lose extends Component {
             "https://ih0.redbubble.net/image.468330822.4032/flat,550x550,075,f.jpg"
           }
         />
-        <br />
+        <Loser />
+        <br></br>
         <button onClick={handleClick}> Try Again! </button>
       </div>
     );

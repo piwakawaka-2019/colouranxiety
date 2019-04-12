@@ -24,7 +24,7 @@ class Sounds extends React.Component {
 render(){
   return(
     <div>
-  <button onClick={this.play.bind(this)} type="button"></button>
+  <audio src={'/public/win.mp3'} autoPlay />
 </div>
   )
   }
