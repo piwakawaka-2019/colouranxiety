@@ -10,7 +10,7 @@ class Header extends Component {
              <div>
             <h1>COLOUR ANXIETY</h1>
 
-            
+          
           </div>
 
         ) 

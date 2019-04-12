@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Audio from "./Sounds.jsx"
 import Header from './Header.jsx'
 import Word from './Word.jsx'
 import Buttons from './Buttons.jsx'
@@ -13,9 +14,8 @@ class App extends Component {
   }
 
   render () {
-    return (
+    return(
       <div>
-      
         {/* <h1>Welcome to {this.props.name}</h1> */}
         <Header />
         <Word />
@@ -24,10 +24,15 @@ class App extends Component {
         
         <Lose />
         <Win />
+      {/* <div>
+      <button><Audio Win/>Winner</button>
+      <button><Audio Lose/>Loser</button>
+      </div> */}
       </div>
-      
-      
-      )
+
+    ) 
+
+   
   }
 
 }

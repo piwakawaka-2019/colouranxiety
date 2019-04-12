@@ -8,7 +8,7 @@ class Lose extends Component {
   render() { 
       return (
         <div>
-          <h1 class='heading'>That Stinks</h1>
+          <h1 className='heading'>That Stinks</h1>
           <img src={'https://ih0.redbubble.net/image.468330822.4032/flat,550x550,075,f.jpg'}/>
         </div>
         );

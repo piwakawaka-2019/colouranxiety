@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import EmojiPicker from 'emoji-picker-react';
+
 
 class Win extends Component {
     constructor(props) {
@@ -9,7 +9,7 @@ class Win extends Component {
     render() { 
         return (
           <div>
-            <h1 class='heading'>That's Awesome</h1>
+            <h1 className='heading'>That's Awesome</h1>
             <img src={'https://images-na.ssl-images-amazon.com/images/I/51-G3tQVdfL._SX425_.jpg'}/>
           </div>
           );
@@ -23,4 +23,4 @@ class Win extends Component {
 
 
 
-export default win
+export default Win
