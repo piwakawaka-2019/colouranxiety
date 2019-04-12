@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Header from './Header.jsx'
 import Word from './Word.jsx'
 import Buttons from './Buttons.jsx'
+import Lose from './Lose.jsx'
+import Win from './Win.jsx'
 
 class App extends Component {
 
@@ -17,7 +19,8 @@ class App extends Component {
         <Header />
         <Word />
         <Buttons />
-        
+        <Lose />
+        <Win />
       </div>
       
       

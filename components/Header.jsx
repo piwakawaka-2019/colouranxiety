@@ -7,9 +7,13 @@ class Header extends Component {
     }
     render() { 
         return (
-            <h2>COLOUR ANXIETY</h2>
-          
-          );
+             <div>
+            <h1>COLOUR ANXIETY</h1>
+
+            
+          </div>
+
+        ) 
     }
 }
  

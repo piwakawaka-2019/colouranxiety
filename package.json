@@ -26,7 +26,10 @@
     "url": "https://github.com/author/colouranxiety/issues"
   },
   "homepage": "https://github.com/author/colouranxiety",
-  "dependencies": {},
+  "dependencies": {
+    "emoji-mart": "^2.11.0",
+    "react-emoji-render": "^0.6.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
