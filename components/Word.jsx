@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import data from '../data.js'
+import { Redirect } from 'react-router-dom'
 
 var min=0; 
 var max=10;  
@@ -16,14 +17,18 @@ class Word extends Component {
     
     render() { 
 
-        console.log(randomId, data[randomId])
         let {color} = data[randomId]
+        let {word} = data[randomId]
+
+
 
         return ( 
             <div className='word' style={{color}} >
-             {data[randomId].word}
-
+             {word}
+             <Redirect to={`/${word}`} />
+            
             </div>
+
 
 
          );
