@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Word from './Word.jsx'
 
 class Buttons extends Component {
     constructor(props) {
@@ -6,6 +7,7 @@ class Buttons extends Component {
         this.state = {  }
     }
     render() { 
+        console.log('word on button', this.props)
         return ( 
             <div>
                 <button>RED</button>
