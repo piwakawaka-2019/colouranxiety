@@ -4,7 +4,7 @@ import CountdownTimer from "react-component-countdown-timer";
 class Countdown extends React.Component {
   render() {
     var settings = {
-      count: 3,
+      count: 5,
       border: true,
       hideDay: true,
       hideHours: true,
