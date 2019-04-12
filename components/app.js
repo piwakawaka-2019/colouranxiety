@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
+import Sound from "./Sounds-Win.jsx"
 import Header from './Header.jsx'
 import Word from './Word.jsx'
 import Buttons from './Buttons.jsx'
-import Sound from "./Sounds.jsx"
+// import Countdown from './Timer.jsx'
+import Lose from './Lose.jsx'
+import Win from './Win.jsx'
 
 class App extends Component {
 
@@ -11,23 +14,22 @@ class App extends Component {
   }
 
   render () {
-    return (
+    return(
       <div>
-      
         {/* <h1>Welcome to {this.props.name}</h1> */}
         <Header />
         <Word />
         <Buttons />
-
-        
-        <div className = 'Sound'>
-        <button><Sound />Yeet</button>
-        </div>
-        
+        {/* <Countdown /> */}
+        <Lose />
+        <Win />
+     
       </div>
-      
-      
-      )
+     
+
+    ) 
+
+   
   }
 
 }

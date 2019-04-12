@@ -16,7 +16,7 @@ class Word extends Component {
     
     render() { 
 
-        console.log(randomId, data[randomId])
+       
         let {color} = data[randomId]
 
         return ( 

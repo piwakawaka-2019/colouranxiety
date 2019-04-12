@@ -1,17 +1,16 @@
 import React from "react"
-import Sound from "react-sound"
-const Win = '../public/win.mp3'
 const Lose = '../public/lose.mp3'
 
 
 
-class Sounds extends React.Component {
+
+class Loser extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       play: false
       };
-      this.url= Win
+      this.url= Lose
       this.audio = new Audio(this.url)
     };
     play(){
@@ -31,4 +30,4 @@ render(){
   }
 }
 
-export default Sounds
+export default Loser
