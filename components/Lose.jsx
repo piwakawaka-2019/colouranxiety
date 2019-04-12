@@ -1,5 +1,5 @@
-
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import Loser from "./Sounds-Lose.jsx"
 
 class Lose extends Component {
   constructor(props) {

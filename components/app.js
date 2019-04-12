@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+import React, { Component } from 'react'
+import Sound from "./Sounds-Win.jsx"
+import Header from './Header.jsx'
+import Word from './Word.jsx'
+import Buttons from './Buttons.jsx'
+// import Countdown from './Timer.jsx'
+import Lose from './Lose.jsx'
+import Win from './Win.jsx'
+=======
+>>>>>>> b90cb9784cfe1aaa1a67cd9d1bbe4fc3139fa3f6
 
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
@@ -28,6 +39,19 @@ class App extends Component {
   render() {
     return (
       <div>
+<<<<<<< HEAD
+        {/* <h1>Welcome to {this.props.name}</h1> */}
+        <Header />
+        <Word />
+        <Buttons />
+        {/* <Countdown /> */}
+        <Lose />
+        <Win />
+     
+      </div>
+     
+=======
+>>>>>>> b90cb9784cfe1aaa1a67cd9d1bbe4fc3139fa3f6
 
         <Router>
 

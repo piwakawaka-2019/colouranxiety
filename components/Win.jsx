@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Sound from "./Sounds-Win.jsx"
 
 
 class Win extends Component {
@@ -17,6 +18,7 @@ class Win extends Component {
           <div>
             <h1 className='heading'>That's Awesome</h1>
             <img src={'https://images-na.ssl-images-amazon.com/images/I/51-G3tQVdfL._SX425_.jpg'}/>
+            <Sound />
             <br>
             </br>
           <button onClick={handleClick}> Try Again! </button>
