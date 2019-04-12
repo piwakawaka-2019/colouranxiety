@@ -1,41 +1,43 @@
 const colour = [{
   word:"RED",
-  colour: 'blue'
+  color: 'royalblue'
 },
 {
   word:"YELLOW",
-  colour: 'green'
+  color: 'green'
 },
 {
   word:"GREEN",
-  colour: 'red'
+  color: 'red'
 },
 {
   word:"BLUE",
-  colour: 'yellow'
+  color: 'gold'
 },
 {
   word:"RED",
-  colour: 'green'
+  color: 'green'
 },
 {
   word:"BLUE",
-  colour: 'red'
+  color: 'red'
 },
 {
-  word:"yellow",
-  colour: 'blue'
+  word:"YELLOW",
+  color: 'royalblue'
 },
 {
   word:"GREEN",
-  colour: 'red'
+  color: 'red'
 },
 {
   word:"BLUE",
-  colour: 'yellow'
+  color: 'gold'
 },
 {
   word:"RED",
-  colour: 'blue'
-},
+  color: 'royalblue'
+}
 ]
+
+export default colour

@@ -1,39 +1,34 @@
 import React from "react"
+import Sound from "react-sound"
+const Win = '../public/win.mp3'
+const Lose = '../public/lose.mp3'
 
-class Audio extends React.Component {
+
+
+class Sounds extends React.Component {
   constructor(props) {
-    super(props);
-	this.playAudio = () => {
-		switch(this.state.selectedColor){
-			case "winner":
-				this.win.play();
-			case "loser":
-				this.lose.play();
-		
-									   }
-	}
-	  
-  }
-  render() {
-    return (
-      <div className="stage">
-		<audio ref={(winner) => { this.win = winner; }}>
-			<source src="../public/Win-Sound.mp3" type="audio/mpeg" >
-			</source>
-		</audio>
-		<audio ref={(loser) => { this.lose = loser; }}>
-			<source src="../public/Lose-Sound.mp3" type="audio/mpeg" >
-			</source>
-		</audio>
-    </div>
-    );
+    super(props)
+    this.state = {
+      play: false
+      };
+      this.url= Win
+      this.audio = new Audio(this.url)
+    };
+    play(){
+      this.setState({
+      play:true 
+      });
+     this.audio.play()
+    };
+    
+
+render(){
+  return(
+    <div>
+  <button onClick={this.play.bind(this)} type="button"></button>
+</div>
+  )
   }
 }
 
-
-export default Audio
-
-
-
-
-
+export default Sounds

@@ -1,3 +1,31 @@
 main {
   text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  letter-spacing: .5em;
+}
+
+.word {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 15em;
+  padding: 30px;
+}
+
+
+
+button {
+  padding: 22px;
+  box-shadow: 5px 5px 0 rgb(0, 0, 0);
+  font-size: 3em;
+  border-radius:15px;
+  border: 3px solid #000;
+  margin-bottom: 100px;
+  margin:10px;
+
+}
+
+
+button:hover {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
 }
