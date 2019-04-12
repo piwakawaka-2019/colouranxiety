@@ -6,12 +6,11 @@ main {
 
 .word {
   font-family: 'Paytone One', sans-serif;
-  font-size: 11em;
+  font-size: 15em;
+  padding: 30px;
 }
 
-.crazy {
-  background-color: blanchedalmond;
-}
+
 
 button {
   padding: 22px;
