@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import EmojiPicker from 'emoji-picker-react';
+
 
 class Win extends Component {
     constructor(props) {

@@ -27,9 +27,13 @@
   },
   "homepage": "https://github.com/author/colouranxiety",
   "dependencies": {
+<<<<<<< HEAD
     "emoji-mart": "^2.11.0",
     "emoji-picker-react": "^2.1.1",
     "react-emoji-render": "^0.6.0"
+=======
+
+>>>>>>> 27f1615c279301986a34595be9e6391a1a2b36cb
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -41,6 +45,8 @@
     "gh-pages": "^0.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1",
     "tinyify": "^2.5.0",
