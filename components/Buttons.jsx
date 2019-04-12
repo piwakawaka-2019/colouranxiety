@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Word from './Word.jsx'
 import data from '../data.js'
 
+
 class Buttons extends Component {
     constructor(props) {
         super(props);
@@ -15,13 +16,13 @@ class Buttons extends Component {
 
         let winColor = theObj.color
 
-        console.log(this.props)
+        console.log(winColor)
 
        const handleClick = (e) => {
-           if (theObj.word == e.target.innerHTML) {
-               this.props.history.push('/Win.jsx')
-           } else {
-               this.props.history.push('/Lose.jsx')
+           if (winColor == e.target.innerHTML.toLowerCase()) {
+               this.props.history.push('/result/win')
+           } else if(winColor !== e.target.innerHTML) {
+               this.props.history.push('/result/lose')
            }
 
             

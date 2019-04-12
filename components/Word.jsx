@@ -17,6 +17,7 @@ class Word extends Component {
     
     render() { 
 
+       
         let {color} = data[randomId]
         let {word} = data[randomId]
         let {id} = data[randomId]
